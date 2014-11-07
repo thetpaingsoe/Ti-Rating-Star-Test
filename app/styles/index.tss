@@ -1,5 +1,6 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"white",
+	layout : 'vertical'
 }
 
 "Label": {
@@ -11,5 +12,29 @@
 "#label": {
 	font: {
 		fontSize: 12
-	}
+	}, 
+	top : 100
+}
+
+"#starwidget" : {
+	height : Ti.UI.SIZE
+}
+
+"#btnShowRating" : {
+	top : 40,
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZE
+	
+}
+
+"#starwidget2" : {
+	left : 0,
+	height : Ti.UI.SIZE
+}
+
+"#starwidget3" : {
+	height : Ti.UI.SIZE
+}
+".top50" : {
+	top : 50
 }

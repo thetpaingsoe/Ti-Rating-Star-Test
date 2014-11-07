@@ -1,5 +1,14 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<Label id="label" >Hello, Star Rating</Label>
+		<Widget id="starwidget" src="starrating" max='5' initialRating='2.5'></Widget>
+		<Button id="btnShowRating" onClick="showRating"  title="Show Rating Start Count"></Button>
+		
+		<Label class="top50"> Align to left to the Star Rating Bar </Label>
+		<Widget id="starwidget2" src="starrating" max='5' initialRating='2.5'></Widget>
+		
+		<Label class="top50"> Vertical Star Rating Bar </Label>
+		<Widget id="starwidget3" src="starrating" max='5' initialRating='2.5'></Widget>
+		
 	</Window>
 </Alloy>
